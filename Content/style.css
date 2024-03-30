@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    width: 400px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content img {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.readmoreText {
+    display: none;
+}
+
+.showMore .readmoreText {
+    display: block; /* Change 'inline' to 'block' to ensure it displays properly */
+}

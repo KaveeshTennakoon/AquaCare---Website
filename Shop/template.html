@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/logo.jpg" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a class="active" href="#">Shop</a></li>
+          <li><a href="#">User Profile</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="#">Our Team</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="head">
+        <div class="title">
+          <a href="/Shop/shop.html">Shop</a>
+        </div>
+        <div class="cart-icon">
+          <svg
+            class="w-[30px] h-[30px] text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.6"
+              d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"
+            />
+          </svg>
+
+          <span class="quantity-number">0</span>
+        </div>
+      </div>
+      <div id="contentTab"></div>
+    </div>
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart"></div>
+      <div class="totalprice">
+        <p>Total price is $0</p>
+      </div>
+      <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkout">CHECK OUT</button>
+      </div>
+    </div>
+
+    <div class="footer">&copy; 2024 Life Below Water. All rights reserved.</div>
+
+    <script src="cart.js"></script>
+  </body>
+</html>
