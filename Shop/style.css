@@ -162,10 +162,12 @@ button {
   background-color: #000;
   font-size: large;
   font-weight: 600;
+  text-align: center;
 }
 
 .cartTab .totalprice p {
-  transform: translateX(150px);
+  transform: translateY(-10px);
+
 }
 
 .cartTab .btn {
@@ -339,7 +341,7 @@ body.activeTabCart .container {
 }
 
 .detail .button .addCart {
-  padding: 15px 15px 8px 20px;
+  padding: 15px 15px 15px 20px;
   background-color: #2f2f2f;
   color: #eee;
   display: inline-flex;

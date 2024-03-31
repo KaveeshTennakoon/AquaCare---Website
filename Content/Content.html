@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/logo.jpg" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a class="active" href="#">Shop</a></li>
+          <li><a href="#">User Profile</a></li>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#">Our Team</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="pagecontent">
+
+    <h1 id="title">
       Threats to Marine Life: Understanding the Challenges Facing Life Below
       Water
     </h1>
@@ -20,19 +39,19 @@
       the life they support. Here, we delve into some of the most pressing
       issues confronting marine life today.
     </p>
-    <ul>
-      <li><a href="#climate">Climate Changes</a></li>
-      <li><a href="#pollution">Pollution</a></li>
-      <li><a href="#overfishing">Overfishing</a></li>
-      <li><a href="#HabitatDestruction">Habitat Destruction</a></li>
-      <li><a href="#InvasiveSpecies">Invasive Species</a></li>
+    <ul class="linking" style="list-style-type: none;">
+      <a href="#climate"><li>&#8227; Climate Changes</li></a>
+       <a href="#pollution"><li>&#8227; Pollution</li></a>
+       <a href="#overfishing"><li>&#8227; Overfishing</li></a>
+       <a href="#HabitatDestruction"><li>&#8227; Habitat Destruction</li></a>
+       <a href="#InvasiveSpecies"><li>&#8227; Invasive Species</li></a>
     </ul>
 
     <section id="climate">
       <h2>Climate Changes</h2>
       <div class="content">
         <img src="images/1.jpg" alt="climate challenges" />
-        <p class="text">
+        <p class="text text1">
           Climate change poses an existential threat to marine life, with rising
           sea temperatures, ocean acidification, and changing weather patterns
           wreaking havoc on ecosystems worldwide. Coral bleaching, driven by
@@ -49,7 +68,7 @@
             resilience of marine species, ensuring the preservation of ocean
             health and biodiversity for generations to come.
           </span>
-          <br /><br /><button class="readmoreBtn">Read More</button>
+          <br /><br /><button class="readmoreBtn Btn1">Read More</button>
         </p>
       </div>
     </section>
@@ -57,7 +76,7 @@
       <h2>Pollution</h2>
       <div class="content">
         <img src="images/3.jpeg" alt="Pollution" />
-        <p class="text">
+        <p class="text text2">
           Pollution, including plastic waste, oil spills, agricultural runoff,
           and chemical contaminants, presents a grave threat to marine
           ecosystems, imperiling the delicate balance of oceanic life. Plastics,
@@ -76,7 +95,7 @@
             our oceanic
           </span>
           <br /><br />
-          <button class="readmoreBtn">Read More</button>
+          <button class="readmoreBtn Btn2">Read More</button>
         </p>
       </div>
     </section>
@@ -84,12 +103,31 @@
       <h2>Overfishing</h2>
       <div class="content">
         <img src="images/4.jpeg" alt="Overfishing" />
-        <p>
-          Overfishing, driven by unsustainable fishing practices and excessive
-          demand for seafood, depletes fish stocks and disrupts marine food
-          chains. This not only threatens the survival of targeted species but
-          also leads to cascading effects throughout marine ecosystems. Learn
-          more about the consequences of overfishing here.
+        <p class="text text3">
+          Overfishing, a consequence of unsustainable practices and increasing
+          demand for seafood, jeopardizes marine ecosystems worldwide. It leads
+          to the depletion of fish stocks and disrupts the delicate balance of
+          marine food webs. This depletion not only threatens the survival of
+          targeted species but also triggers cascading effects throughout the
+          ecosystem.
+          <span class="readmoreText"
+            >By removing key predators, overfishing can lead to imbalances in
+            prey populations and alter community structures. Moreover, the
+            incidental capture of non-targeted species, known as bycatch,
+            further exacerbates biodiversity loss. These impacts extend beyond
+            ecological concerns, affecting the livelihoods of millions of people
+            dependent on fisheries for food and income. Sustainable fisheries
+            management, incorporating measures like fishing quotas and marine
+            protected areas, is essential to mitigate the adverse effects of
+            overfishing and ensure the long-term health of marine ecosystems.
+            Public awareness and support for sustainable seafood consumption
+            also play a crucial role in driving positive change in the fishing
+            industry. By addressing overfishing, we can work towards preserving
+            ocean health and securing the future of coastal communities
+            worldwide.
+          </span>
+          <br /><br />
+          <button class="readmoreBtn Btn3">Read More</button>
         </p>
       </div>
     </section>
@@ -97,12 +135,16 @@
       <h2>Habitat Destruction</h2>
       <div class="content">
         <img src="images/5.jpeg" alt="Habitat Destruction" />
-        <p>
-          Human activities such as coastal development, dredging, and bottom
-          trawling destroy vital marine habitats such as coral reefs, seagrass
-          beds, and mangrove forests. As these habitats disappear, so too do the
-          countless species that depend on them for survival. Discover more
-          about the impacts of habitat destruction here.
+        <p class="text">
+          Human activities like coastal development, dredging, and bottom
+          trawling inflict severe damage on vital marine habitats like coral
+          reefs, seagrass beds, and mangrove forests. These habitats serve as
+          critical nurseries, feeding grounds, and shelters for numerous marine
+          species. However, their disappearance due to habitat destruction leads
+          to the loss of biodiversity and disrupts the delicate balance of
+          marine ecosystems. Without these habitats, many species face
+          extinction, and the resilience of marine ecosystems diminishes,
+          exacerbating the threats they face.
         </p>
       </div>
     </section>
@@ -110,16 +152,29 @@
       <h2>Invasive Species</h2>
       <div class="content">
         <img src="images/6.jpeg" alt="Invasive Species" />
-        <p>
-          Human activities such as coastal development, dredging, and bottom
-          trawling destroy vital marine habitats such as coral reefs, seagrass
-          beds, and mangrove forests. As these habitats disappear, so too do the
-          countless species that depend on them for survival. Discover more
-          about the impacts of habitat destruction here. about the impacts of
-          habitat destruction here.
+        <p class="text">
+          The introduction of non-native species into marine environments poses
+          significant challenges, as invasive species can rapidly spread and
+          outcompete native organisms for resources, leading to ecosystem
+          imbalance. Their unchecked proliferation often disrupts natural
+          habitats, diminishes biodiversity, and compromises the resilience of
+          marine ecosystems. Furthermore, invasive species can have far-reaching
+          economic impacts, affecting fisheries, aquaculture, and tourism
+          industries. Addressing the threats posed by invasive species requires
+          comprehensive monitoring, management, and prevention measures to
+          mitigate their detrimental effects and preserve the health and
+          integrity of marine ecosystems.
         </p>
       </div>
     </section>
+
+    <hr>
+
+    </div>
+
+    <div class="footer">&copy; 2024 Life Below Water. All rights reserved.</div>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Back To Top</button>
 
     <script src="script.js"></script>
   </body>
