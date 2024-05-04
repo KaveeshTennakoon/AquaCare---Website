@@ -1,0 +1,92 @@
+h1,h2{
+   
+    margin: auto;
+    text-align: center;
+
+}
+.teamIMG{
+width: 300px;
+height: 300px;
+
+}.outer_box{
+ 
+    float: left;
+    margin: auto;
+    left: 20px;
+    position: relative;
+    left: 180px;
+    top: 20pxpx;
+
+
+
+}.description{
+
+display: none;
+
+}
+
+span{
+
+    font-weight: bold;
+    
+
+}
+#kaveeshIMG:hover + #details1{
+
+   display: block;
+
+}
+
+
+#nithyaIMG:hover + #details2{
+
+    display: block;
+ 
+ }
+ #kaveeshIMG:hover + #details1{
+
+    display: block;
+ 
+ }
+ #dihanIMG:hover + #details3{
+
+    display: block;
+ 
+ }
+ #suvinduIMG:hover + #details4{
+
+    display: block;
+ 
+ }
+
+
+
+ #kaveeshIMG:hover img {
+    opacity: 0.7;
+}
+#nithyaIMG:hover img {
+    opacity: 0.7;
+}
+#dihanIMG:hover img {
+    opacity: 0.7;
+}
+#suvinduIMG:hover img {
+    opacity: 0.7;
+}
+
+.footer{
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(17, 2, 86);
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+}
+
+.footer a{
+    
+      text-decoration: none;
+      color:aqua;
+}
