@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="gallery.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="header.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="/Home/home.html">
+        <div class="logo">
+          <img src="/Images/logo.png" alt="logo" />
+        </div>
+      </a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="nav">
+        <a href="/Home/home.html">Home</a>
+        <a href="/Gallery/gallery.html" class="active">Gallery</a>
+        <a href="/Shop/shop.html">Shop</a>
+        <a href="/SiteMap/sitemap.html">Site Map</a>
+        <a href="/Feedback/feedback.html">Feedback</a>
+        <a href="/Team/Team.html">Our Team</a>
+        <a href="/UserProfile/userProfile.html">User Profile</a>
+      </nav>
+    </header>
+
+    <div class="container" id="blur">
+      <div class="slide">
+        <div
+          class="item"
+          style="background-image: url(/Images/Gallery\ Image1.jpg)"
+          id="image1"
+        >
+          <div class="content">
+            <div class="name">
+              <p style="color: rgb(7, 197, 255)">
+                Preventing Ocean Acidification :
+              </p>
+              Preserving Marine Ecosystems!
+            </div>
+            <button>
+              <a href="#" onclick="toggle('popup8')">More Info</a>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="item"
+          style="background-image: url(/Images/Gallery\ Image2.jpg)"
+          id="image2"
+        >
+          <div class="content">
+            <div class="name">
+              <p style="color: rgb(7, 197, 255)">Saving Coral :</p>
+              Let's Protect Our Underwater Gardens
+            </div>
+            <button>
+              <a href="#" onclick="toggle('popup1')">More Info</a>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="item"
+          style="background-image: url(/Images/Gallery\ Image3.png)"
+          id="image3"
+        >
+          <div class="content">
+            <div class="name">
+              <p style="color: rgb(7, 197, 255)">Safe Seas :</p>
+              Preserving Marine Life in Protected Areas
+            </div>
+            <button>
+              <a href="#" onclick="toggle('popup2')">More Info</a>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="item"
+          style="background-image: url(/Images/Gallery\ Image4.jpg)"
+          id="image4"
+        >
+          <div class="content">
+            <div class="name">
+              <p style="color: rgb(7, 197, 255)">Restoring Mangroves :</p>
+              Restoring Coastal Ecosystems!
+            </div>
+            <button>
+              <a href="#" onclick="toggle('popup3')">More Info</a>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="item"
+          style="background-image: url(/Images/Gallery\ Image5.jpg)"
+          id="image5"
+        >
+          <div class="content">
+            <div class="name">
+              <p style="color: rgb(7, 197, 255)">Stop Overfishing ! :</p>
+              Safe guarding Fish and Ocean Health
+            </div>
+            <button>
+              <a href="#" onclick="toggle('popup4')">More Info</a>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="item"
+          style="background-image: url(/Images/Gallery\ Image6.jpg)"
+          id="image6"
+        >
+          <div class="content">
+            <div class="name">
+              <p style="color: rgb(7, 197, 255)">
+                Empower Small-Scale Fishers :
+              </p>
+              Sustainable Seafood for All!
+            </div>
+            <button>
+              <a href="#" onclick="toggle('popup5')">More Info</a>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="item"
+          style="background-image: url(/Images/Gallery\ Image7.png)"
+          id="image7"
+        >
+          <div class="content">
+            <div class="name">
+              <p style="color: rgb(7, 197, 255)">
+                Combatting Plastic Pollution :
+              </p>
+              Cleaning Up Our Oceans!
+            </div>
+            <button>
+              <a href="#" onclick="toggle('popup6')">More Info</a>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="item"
+          style="background-image: url(/Images/Gallery\ Image8.jpg)"
+          id="image8"
+        >
+          <div class="content">
+            <div class="name">
+              <p style="color: rgb(7, 197, 255)">
+                Supporting Marine Conservation :
+              </p>
+              Caring for Our Oceans!
+            </div>
+            <button>
+              <a href="#" onclick="toggle('popup7')">More Info</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="button">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <div class="vertical-text" id="blur">
+      <p>GALLERY</p>
+    </div>
+
+    <div id="popup8" class="popup">
+      <h2>Preventing Ocean Acidification : Preserving Marine Ecosystems!</h2>
+      <br />
+      <p>
+        Ocean acidification threatens the very foundation of marine life,
+        jeopardizing ecosystems and species vital for our planet's health. To
+        combat it, we must curb carbon emissions and protect vulnerable habitats
+        like coral reefs and mangroves. By reducing ocean acidification, we
+        safeguard marine biodiversity, protect fisheries, and ensure the
+        resilience of our oceans in the face of climate change.
+      </p>
+      <button><a href="#" onclick="toggle('popup8')">Close</a></button>
+    </div>
+
+    <div id="popup1" class="popup">
+      <h2>Saving Coral : Let's Protect Our Underwater Gardens</h2>
+      <br />
+      <p>
+        Coral reefs are vibrant underwater ecosystems teeming with life, but
+        they face numerous threats, including pollution, climate change, and
+        overfishing. Conservation efforts focus on protecting these delicate
+        environments through initiatives such as marine protected areas and
+        sustainable tourism practices. By raising awareness and implementing
+        conservation measures, we can safeguard coral reefs for future
+        generations and maintain their essential role in supporting marine
+        biodiversity.
+      </p>
+      <button><a href="#" onclick="toggle('popup1')">Close</a></button>
+    </div>
+
+    <div id="popup2" class="popup">
+      <h2>Safe Seas : Preserving Marine Life in Protected Areas</h2>
+      <br />
+      <p>
+        Marine Protected Areas (MPAs) serve as sanctuaries for marine life,
+        offering refuge from human activities such as fishing and habitat
+        destruction. These areas help preserve biodiversity, support fish
+        populations, and promote ecosystem resilience. By designating and
+        effectively managing MPAs, we can ensure the long-term health of our
+        oceans and the myriad species that call them home.
+      </p>
+      <button><a href="#" onclick="toggle('popup2')">Close</a></button>
+    </div>
+
+    <div id="popup3" class="popup">
+      <h2>Restoring Mangroves : Restoring Coastal Ecosystems!</h2>
+      <br />
+      <p>
+        Mangroves are critical coastal ecosystems that provide vital habitats
+        for diverse marine life, protect shorelines from erosion, and sequester
+        carbon dioxide from the atmosphere. However, mangroves face threats from
+        deforestation and coastal development. Restoration efforts involve
+        replanting mangrove forests, restoring degraded habitats, and engaging
+        local communities in conservation initiatives. By restoring mangroves,
+        we can enhance coastal resilience, mitigate climate change impacts, and
+        support sustainable fisheries.
+      </p>
+      <button><a href="#" onclick="toggle('popup3')">Close</a></button>
+    </div>
+
+    <div id="popup4" class="popup">
+      <h2>Stop Overfishing ! : Safe guarding Fish and Ocean Health</h2>
+      <br />
+      <p>
+        Overfishing depletes fish populations, disrupts marine ecosystems, and
+        threatens food security for millions of people who depend on seafood for
+        sustenance and livelihoods. Addressing overfishing requires implementing
+        science-based fisheries management practices, reducing bycatch, and
+        promoting sustainable fishing methods. By halting overfishing and
+        adopting responsible fishing practices, we can protect marine
+        biodiversity, restore fish stocks, and ensure the long-term
+        sustainability of our oceans.
+      </p>
+      <button><a href="#" onclick="toggle('popup4')">Close</a></button>
+    </div>
+
+    <div id="popup5" class="popup">
+      <h2>Empower Small-Scale Fishers : Sustainable Seafood for All!</h2>
+      <br />
+      <p>
+        Small-scale fishers are the backbone of coastal communities worldwide,
+        providing sustenance and livelihoods for millions. Yet, they often
+        struggle against industrial fishing practices and market challenges.
+        Supporting them means ensuring fair access to resources, promoting
+        sustainable fishing methods, and empowering local management efforts. By
+        backing small-scale fishers, we can uphold coastal traditions, bolster
+        food security, and foster sustainable fishing practices.
+      </p>
+      <button><a href="#" onclick="toggle('popup5')">Close</a></button>
+    </div>
+
+    <div id="popup6" class="popup">
+      <h2>Combatting Plastic Pollution : Cleaning Up Our Oceans!</h2>
+      <br />
+      <p>
+        Plastic pollution poses a significant threat to marine ecosystems,
+        endangering marine life through ingestion, entanglement, and habitat
+        destruction. To combat this problem, we must reduce plastic consumption,
+        improve waste management systems, and promote recycling and alternative
+        materials. By taking collective action to reduce plastic pollution, we
+        can protect marine habitats, preserve biodiversity, and mitigate the
+        impacts of plastic on human health and the environment.
+      </p>
+      <button><a href="#" onclick="toggle('popup6')">Close</a></button>
+    </div>
+
+    <div id="popup7" class="popup">
+      <h2>Supporting Marine Conservation : Caring for Our Oceans!</h2>
+      <br />
+      <p>
+        Raising awareness about marine conservation is crucial for inspiring
+        action and fostering a deeper appreciation for the oceans' importance.
+        Educational initiatives, community outreach programs, and multimedia
+        campaigns play a vital role in engaging people in marine conservation
+        efforts. By increasing public awareness and understanding of marine
+        issues, we can empower individuals to take positive actions to protect
+        our oceans and the diverse life they sustain.
+      </p>
+      <button><a href="#" onclick="toggle('popup7')">Close</a></button>
+    </div>
+
+    <div id="image-popup" class="popup">
+      <img src="" alt="Full Image" />
+      <button onclick="toggleImagePopup('')">x</button>
+    </div>
+
+    <div class="color-buttons">
+      <button
+        class="color-button"
+        id="color-button-1"
+        style="background-color: #151515"
+      ></button>
+      <button
+        class="color-button"
+        id="color-button-2"
+        style="background-color: rgb(255, 255, 255)"
+      ></button>
+      <button
+        class="color-button"
+        id="color-button-3"
+        style="background-color: rgb(3, 154, 200)"
+      ></button>
+    </div>
+
+    <div class="footer">
+      <a href="/PageEditor/w2053071/pageedit.html" target="_blank"
+        >Page Editor</a
+      >
+    </div>
+
+    <script src="gallery.js"></script>
+  </body>
+</html>
