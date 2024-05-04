@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Sitemap</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Righteous&display=swap");
+      #sitemap {
+        width: 89%;
+        height: 600px;
+        font-family: "Poppins", sans-serif;
+      }
+
+      rect:hover {
+        fill: rgb(7, 197, 255);
+      }
+
+      body {
+        width: 100%;
+      }
+
+      h1 {
+        position: absolute;
+        font-size: 40px;
+        color: black;
+        margin-top: 7%;
+        margin-left: 8%;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/Home/home.html">
+        <div class="logo">
+          <img src="/Images/logo.png" alt="logo"/>
+        </div>
+      </a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="nav">
+        <a href="/Home/home.html">Home</a>
+        <a href="/Gallery/gallery.html" >Gallery</a>
+        <a href="/Shop/shop.html">Shop</a>
+        <a href="/SiteMap/sitemap.html" class ="active">Site Map</a>
+        <a href="/Feedback/feedback.html">Feedback</a>
+        <a href="/Team/Team.html">Our Team</a>
+        <a href="/UserProfile/userProfile.html">User Profile</a>
+      </nav>
+    </header>
+
+    <div><h1>Site Map</h1></div>
+
+    <br /><br />
+
+    <svg id="sitemap" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+      <!-- Home page -->
+      <a href="/Home/home.html">
+        <rect
+          x="420"
+          y="120"
+          width="160"
+          height="70"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="499" y="160" text-anchor="middle">Home page</text>
+      </a>
+      <!-- Content pages -->
+      <a href="/ContentPages/w2051981/Content.html">
+        <rect
+          x="70"
+          y="260"
+          width="170"
+          height="50"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="152" y="290" text-anchor="middle">Content Page 1</text>
+      </a>
+      <a href="/ContentPages/w2052017/contentpage.html">
+        <rect
+          x="70"
+          y="330"
+          width="170"
+          height="50"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="152" y="360" text-anchor="middle">Content Page 2</text>
+      </a>
+      <a href="/ContentPages/w2053071/content.html">
+        <rect
+          x="70"
+          y="400"
+          width="170"
+          height="50"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="152" y="430" text-anchor="middle">Content Page 3</text>
+      </a>
+      <a href="/ContentPages/w2054987/content1.html">
+        <rect
+          x="70"
+          y="470"
+          width="170"
+          height="50"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="152" y="500" text-anchor="middle">Content Page 4</text>
+      </a>
+      <!-- Navigation links -->
+
+      <a href="/Shop/shop.html">
+        <rect
+          x="760"
+          y="260"
+          width="170"
+          height="50"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="845" y="290" text-anchor="middle">Shop</text>
+      </a>
+
+      <a href="/Gallery/gallery.html">
+        <rect
+          x="760"
+          y="330"
+          width="170"
+          height="50"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="845" y="360" text-anchor="middle">Gallery</text>
+      </a>
+      <a href="/SiteMap/sitemap.html">
+        <rect
+          x="760"
+          y="400"
+          width="170"
+          height="50"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="845" y="430" text-anchor="middle">Sitemap</text>
+      </a>
+      <a href="/Team/Team.html">
+      <rect
+        x="760"
+        y="470"
+        width="170"
+        height="50"
+        rx="10"
+        fill="#f0f0f0"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <text x="845" y="500" text-anchor="middle">Team</text>
+      </a>
+
+      <a href="/UserProfile/userProfile.html">
+        <rect
+          x="760"
+          y="540"
+          width="170"
+          height="50"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="845" y="570" text-anchor="middle">Profile</text>
+      </a>
+
+      <!-- Feedback form link -->
+      <a href="/Feedback/feedback.html">
+        <rect
+          x="70"
+          y="540"
+          width="170"
+          height="50"
+          rx="10"
+          fill="#f0f0f0"
+          stroke="#000"
+          stroke-width="2"
+        />
+        <text x="152" y="570" text-anchor="middle">Feedback Form</text>
+      </a>
+
+      <!-- Lines connecting nodes -->
+      <line
+        x1="500"
+        y1="190"
+        x2="500"
+        y2="226"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <line
+        x1="330"
+        y1="225"
+        x2="670"
+        y2="225"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <line
+        x1="330"
+        y1="225"
+        x2="330"
+        y2="566"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <line
+        x1="670"
+        y1="225"
+        x2="670"
+        y2="566"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <line
+        x1="240"
+        y1="285"
+        x2="330"
+        y2="285"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <line
+        x1="240"
+        y1="355"
+        x2="330"
+        y2="355"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <line
+        x1="240"
+        y1="425"
+        x2="330"
+        y2="425"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <line
+        x1="240"
+        y1="495"
+        x2="330"
+        y2="495"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <line
+        x1="240"
+        y1="565"
+        x2="330"
+        y2="565"
+        stroke="#000"
+        stroke-width="2"
+      />
+      <!-- For Shop -->
+      <line
+        x1="670"
+        y1="285"
+        x2="760"
+        y2="285"
+        stroke="#000"
+        stroke-width="2"
+      />
+
+      <!-- For Gallery -->
+      <line
+        x1="670"
+        y1="355"
+        x2="760"
+        y2="355"
+        stroke="#000"
+        stroke-width="2"
+      />
+
+      <!-- For Sitemap -->
+      <line
+        x1="670"
+        y1="425"
+        x2="760"
+        y2="425"
+        stroke="#000"
+        stroke-width="2"
+      />
+
+      <!-- For Team -->
+      <line
+        x1="670"
+        y1="495"
+        x2="760"
+        y2="495"
+        stroke="#000"
+        stroke-width="2"
+      />
+
+      <!-- For Profile -->
+      <line
+        x1="670"
+        y1="565"
+        x2="760"
+        y2="565"
+        stroke="#000"
+        stroke-width="2"
+      />
+    </svg>
+
+    <div class="footer">
+      <a href="/PageEditor/w2053071/pageedit.html" target="_blank">Page Editor</a>
+    </div>
+
+    <script src="content.js"></script>
+  </body>
+</html>
