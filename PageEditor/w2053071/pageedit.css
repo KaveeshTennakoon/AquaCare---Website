@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-size:cover;
+    background-position:initial;
+    width:100%;
+
+  }
+
+.topic{
+    text-align: center;
+    color: rgb(7, 197, 255);
+    font-size: larger;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+.student{
+    margin: auto;
+    background-color:rgb(7, 197, 255);
+    background-size:cover;
+    background-position:initial;
+    width:100%;
+    color:rgb(255, 255, 255) ;
+    padding-top:  5px;
+    padding-bottom:  5px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+  }
+
+.content{
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    background-color:rgb(255, 255, 255);
+    background-size:cover;
+    background-position:initial;
+    width:100%;
+    color:black ;
+    padding-top:  30px;
+    padding-bottom:  5px;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 600;
+    display:inline-block;
+}
+.btn {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: rgb(7, 197, 255);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin:auto;
+    }
+    
+    .btn:hover {
+    background-color: rgb(6, 135, 135);
+    color: rgb(255, 255, 255);
+    }
