@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restoring Mangroves</title>
+    <link rel="stylesheet" href="content.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/Home/home.html">
+        <div class="logo">
+          <img src="/Images/logo.png" alt="logo"/>
+        </div>
+        </a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="nav">
+        <a href="/Home/home.html" class ="active">Home</a>
+        <a href="/Gallery/gallery.html" >Gallery</a>
+        <a href="/Shop/shop.html">Shop</a>
+        <a href="/SiteMap/sitemap.html">Site Map</a>
+        <a href="/Feedback/feedback.html">Feedback</a>
+        <a href="/Team/Team.html">Our Team</a>
+        <a href="/UserProfile/userProfile.html">User Profile</a>
+      </nav>
+    </header>
+    <main id="main-topic">
+      <h1>Restoring Mangroves</h1>
+      <p>
+        Mangroves, vital coastal ecosystems, face threats from human activities
+        and climate change. Restoration efforts are crucial to protect marine
+        life and preserve these essential habitats.
+      </p>
+      <button onclick="scrollToSection('section1')">Importance</button>
+      <button onclick="scrollToSection('section2')">Current Threats</button>
+      <button onclick="scrollToSection('section3')">Benefits</button>
+      <button onclick="scrollToSection('section4')">Future Directions</button>
+    </main>
+
+    <section id="section1" class="green-background">
+      <div class="content">
+        <img src="/Images/Student4Con3.jpeg" alt="Mangrove Restoration" />
+        <div class="text-content" style="margin-left: 80px">
+          <h2>Importance of Mangroves</h2><br>
+          <p>
+            Mangroves serve as essential habitats for a diverse array of marine
+            species. These coastal forests act as nurseries, providing refuge
+            and breeding grounds for various fish, crustaceans, and other
+            aquatic organisms. Furthermore, mangroves help stabilize coastal
+            areas, mitigating erosion and providing natural buffers against
+            storm surges and tsunamis. The intricate root systems of mangroves
+            also trap sediments and filter pollutants, improving water quality
+            and fostering nutrient cycling.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section2" class="white-background">
+      <div class="content reversed">
+        <div
+          class="text-content"
+          style="margin-right: 90px; margin-bottom: 20px"
+        >
+          <h2>Threats to Mangrove Ecosystems</h2><br>
+          <p>
+            Despite their ecological significance, mangroves face numerous
+            threats, primarily driven by human activities. Deforestation for
+            urban development, aquaculture, agriculture, and infrastructure
+            projects has led to widespread mangrove loss. Pollution from
+            industrial runoff, oil spills, and plastic waste further degrades
+            these ecosystems. Additionally, rising sea levels and climate change
+            exacerbate the vulnerability of mangroves, putting countless species
+            at risk of extinction.
+          </p>
+        </div>
+        <img
+          src="/Images/Student4Con4.jpg"
+          alt="Mangrove Restoration"
+          style="margin-left: 20px"
+        />
+      </div>
+    </section>
+
+    <section id="section3" class="green-background">
+      <div class="content">
+        <img src="/Images/Student4Con2.jpg" alt="Mangrove Restoration" />
+        <div class="text-content" style="margin-left: 90px">
+          <h2>Benefits of Mangrove Restoration</h2><br>
+          <p>
+            Mangrove restoration initiatives aim to reverse the decline of these
+            vital ecosystems and promote their recovery. By replanting mangrove
+            saplings and implementing sustainable management practices,
+            restoration projects enhance biodiversity, protect coastal
+            communities, and support local livelihoods. Restored mangrove
+            forests not only provide crucial habitat for marine life but also
+            offer ecosystem services such as carbon sequestration, which helps
+            mitigate climate change. Moreover, mangrove restoration projects
+            contribute to ecotourism and promote educational opportunities,
+            raising awareness about the importance of conserving coastal
+            ecosystems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section4" class="white-background">
+      <div class="content reversed">
+        <div class="text-content" style="margin-left: -20px; margin-top: -30px">
+          <h2>Success Stories and Future Directions</h2><br>
+          <p>
+            Despite the challenges, numerous successful mangrove restoration
+            projects have demonstrated the effectiveness of proactive
+            conservation efforts. Collaborative initiatives involving government
+            agencies, non-profit organizations, local communities, and
+            international partners have restored thousands of hectares of
+            mangrove habitat worldwide. These projects showcase the resilience
+            of mangroves and their capacity to recover when given the chance.
+            Looking ahead, it is essential to prioritize mangrove conservation
+            and restoration in global environmental agendas. Sustainable
+            management practices, innovative technologies, and community
+            engagement are key strategies for ensuring the long-term survival of
+            mangrove ecosystems and the diverse marine life they support.
+          </p>
+        </div>
+        <img
+          src="/Images/Student4Con5.jpg"
+          alt="Mangrove Restoration"
+          style="margin-right: -40px"
+        />
+      </div>
+      
+    </section>
+    <button id="ontop" onclick="scrollToTop()">&#10140;</button>
+
+      <div class="footer">
+        <a href="/PageEditor/w2053071/pageedit.html" target="_blank">Page Editor</a>
+      </div>
+    <script src="content.js"></script>
+  </body>
+</html>
