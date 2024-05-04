@@ -1,0 +1,125 @@
+<!-- Works properly when access using shop.html - clicking on product images redirect here-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <div class="logo">
+          <img src="/Images/logo.png" alt="logo image" />
+        </div>
+      </a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="nav">
+        <a href="/Home/home.html" >Home</a>
+        <a href="/Gallery/gallery.html" >Gallery</a>
+        <a href="/Shop/shop.html"class ="active">Shop</a>
+        <a href="/SiteMap/sitemap.html">Site Map</a>
+        <a href="/Feedback/feedback.html">Feedback</a>
+        <a href="/Team/Team.html">Our Team</a>
+        <a href="/UserProfile/userProfile.html">User Profile</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="head">
+        <div class="title">
+          <a href="shop.html">Shop</a>
+        </div>
+        <div class="cart-icon">
+          <svg
+            class="w-[30px] h-[30px] text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.6"
+              d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"
+            />
+          </svg>
+
+          <span class="quantity-number">0</span>
+        </div>
+      </div>
+      <div id="contentTab">
+        <div class="title">PRODUCT DETAIL</div>
+        <div class="detail">
+          <div class="image">
+            <img src="images/1.png" alt="prodct image" />
+          </div>
+          <div class="content">
+            <div class="name"></div>
+            <div class="price"></div>
+            <div class="button">
+              <button class="checkout">Check Out</button>
+              <button class="addCart">
+                Add To Cart
+                <svg
+                  class="w-[30px] h-[30px] text-gray-800 dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="description"></div>
+          </div>
+        </div>
+        <div class="title sProducts">Similar Products</div>
+        <div class="listProduct"></div>
+      </div>
+    </div>
+
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart"></div>
+      <div class="totalprice">
+        <p>Total price is $0</p>
+      </div>
+      <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkout">CHECK OUT</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <a href="/PageEditor/index.html" target="_blank">Page Editor</a>
+    </div>
+
+    <script src="detail.js"></script>
+  </body>
+</html>
